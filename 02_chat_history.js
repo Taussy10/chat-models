@@ -4,6 +4,8 @@ import { AIMessage, HumanMessage, SystemMessage } from "@langchain/core/messages
 import readline from 'readline'
 
 
+//  you can change diff models quickyly by 
+// https://js.langchain.com/docs/integrations/chat/
 const model = new ChatGoogleGenerativeAI({
 model: "gemini-2.0-flash",
 // randomness of output: 0 low and 2 is high 
